@@ -18,8 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
             if ($connection->query($sql) == TRUE) 
             {
                 require_once 'mail.php';
-                $mail->setFrom('mustafafares29@gmail.com', 'steavo');
-                $mail->addAddress('mustafafares29@gmail.com');
+                $mail->setFrom('examplefrom@gmail.com', 'steavo');
+                $mail->addAddress('exampleto@gmail.com');
                 $mail->Subject = 'رسالة تجريبية';
                 $mail->IsHTML(true);
                 $mail->Body = "لقد تم حجز موعد <br>" .
