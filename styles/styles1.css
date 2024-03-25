@@ -1,0 +1,202 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  font-size: 15px;
+  background: linear-gradient(to right, #5b3327, #d6ae7b);
+}
+
+/* Wrapper */
+#wrapper {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+/* Container */
+.container {
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #fff;
+  padding: 6vw 7vw 8vw 7vw;
+}
+
+/* Form styles */
+#form-head {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+#city,
+#date-time,
+.person-detail,
+#note {
+  display: block;
+}
+
+/* Input styles */
+#dropdown,
+input[type="date"],
+input[type="time"] {
+  width: 95%;
+  height: 35px;
+  padding-left: 8px;
+  margin-top: 5px;
+  font-size: 1.8rem;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dtt {
+  width: 46.5%;
+  margin-top: 1.5vw;
+}
+
+.person-detail {
+  width: 95%;
+  margin: 12px 0;
+  border: 1.5px solid #aaa;
+}
+
+/* Textarea styles */
+#message {
+  height: 80px;
+  padding-top: 3px;
+  resize: none;
+}
+
+/* Button styles */
+#submit {
+  border-radius: 20px;
+  width: 96%;
+  height: 48px;
+  font-size: 2rem;
+  background-color: #29b8e6;
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#submit:hover {
+  opacity: 0.8;
+}
+
+/* Responsive design */
+@media (max-width: 460px) {
+  #wrapper {
+      margin: 12vh 0 15vh 0;
+  }
+
+  .format {
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+  }
+
+  .dtt {
+      width: 45.8%;
+  }
+
+  .container {
+      padding: 6vw 4vw 8vw 8vw;
+      border-radius: 20px;
+  }
+}
+
+/* Additional styles */
+.cd__intro,
+.cd__action,
+.cd__main {
+  text-align: center;
+}
+
+.cd__intro h1 {
+  font-size: 18pt;
+  padding-bottom: 15px;
+}
+
+.cd__intro p {
+  font-size: 14px;
+}
+
+.cd__action a.cd__btn {
+  text-decoration: none;
+  color: #666;
+  border: 2px solid #666;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.cd__action a.cd__btn:hover {
+  background: #666;
+  color: #fff;
+  transition: .3s;
+}
+
+.down:before {
+  content: "\f019";
+}
+
+.back:before {
+  content: "\f112";
+}
+
+.language-selector {
+  top: 5px;
+  left: 5px;
+  padding: 5px;
+}
+
+/* Time slots */
+#available_times {
+  list-style-type: none;
+  padding: 0;
+  margin-top: auto;
+}
+
+#available_times li {
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.selected {
+  background-color: lightgreen;
+}
+
+/* Input focus */
+input:focus,
+#dropdown:focus,
+#time:focus {
+  border-color: #08f;
+  outline: none;
+  box-shadow: 0 0 5px #08f;
+}
+
+/* Submit button hover */
+#submit:hover {
+  opacity: 0.8;
+}
