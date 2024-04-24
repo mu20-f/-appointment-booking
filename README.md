@@ -82,6 +82,9 @@ try {
 ```
 $mail->send();
 ```
+![book an appointment page](book an appointment page.png)
+![View Appointment page](View Appointment page.png)
+![Main page](Main page.png)
 
 
 
