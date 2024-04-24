@@ -82,9 +82,9 @@ try {
 ```
 $mail->send();
 ```
-![book an appointment page](book an appointment page.png)
-![View Appointment page](View Appointment page.png)
-![Main page](Main page.png)
+![Main page](https://github.com/mu20-f/-appointment-booking/assets/159249321/1f0a93fd-57e2-4f84-95e0-bd47bae3c862)
+![book an appointment page](https://github.com/mu20-f/-appointment-booking/assets/159249321/bc02a0de-2b34-419c-996c-ee111c34dac1)
+![View Appointment page](https://github.com/mu20-f/-appointment-booking/assets/159249321/4cebee2f-a6f2-441e-b118-fa7a0204ab59)
 
 
 
